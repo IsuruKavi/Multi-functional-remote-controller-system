@@ -64,10 +64,11 @@ void main(void) {
                          }
                     
                 }
-        }else{
+        }//code to operate the relays.
+        else{
          if(Up_button==1 && Down_button==0 && In_button==0 && Out_button==0){
            
-Up_relay=0;
+            Up_relay=0;
                 
         }
         if(Up_button==0){
