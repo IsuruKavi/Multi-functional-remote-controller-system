@@ -69,6 +69,7 @@ void main(void) {
     Down_relay=1;
       
     while (1) { 
+        //code for changing the mode pressing the middle push botton(pb)
         if ( Pb == 1 && Bs0==0 ) {
             __delay_ms(50);
             
@@ -152,7 +153,7 @@ void main(void) {
         }
 //        code for Auto Mode
         else {
-            
+            //code for automatically turn off the relay  after 3min once operation is started.
             if(In_relay==1){
                 
                 
@@ -186,7 +187,7 @@ void main(void) {
                     __delay_ms(50);
                 }
                 
-            }
+            }//code for automatically turn off the relay  after 100 sec once operation is started.
             if(Up_relay==1){
                 
                 
