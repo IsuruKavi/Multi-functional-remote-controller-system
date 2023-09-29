@@ -10,8 +10,6 @@
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
-
-
 #define _XTAL_FREQ 16000000
 #include <xc.h>
 //OUTPUTS
@@ -51,13 +49,9 @@ void main(void) {
     __delay_ms(100);
 
     while (1) {
-        
-          
-                   
         //code for turning of relays when signal isn't received for 400ms 
         if(Transmission_enable==0 ){
             for(int t=0; t<=8; t++){
-                   
                     __delay_ms(50);
                     if(Transmission_enable==1){
                         break;
@@ -67,11 +61,7 @@ void main(void) {
                         Down_relay=1;
                         In_relay=1;
                         Out_relay=1;
-                        
-                                                
-
-                        
-                    }
+                         }
                     
                 }
         }else{
@@ -87,9 +77,7 @@ Up_relay=0;
         if(Down_button==1 && Up_button==0 && In_button==0 && Out_button==0){
             
             Down_relay=0;
-            
-            
-            
+                
         }if(Down_button==0){
             Down_relay=1;
         }
@@ -97,8 +85,7 @@ Up_relay=0;
         if(In_button==1 && Down_button==0 && Up_button==0 && Out_button==0){
            
             In_relay=0;
-            
-            
+           
         }if(In_button==0){
             In_relay=1;
         
