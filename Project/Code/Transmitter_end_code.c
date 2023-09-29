@@ -67,14 +67,8 @@ void main(void) {
     Out_relay=1;
     Up_relay=1;
     Down_relay=1;
-    
-    
-    
-    
-    
-    while (1) {
-        
-        
+      
+    while (1) { 
         if ( Pb == 1 && Bs0==0 ) {
             __delay_ms(50);
             
@@ -105,13 +99,7 @@ void main(void) {
                 
             }
             }
-
-        
-        
-        
-        
-        
-        
+ 
 //        code for Manual mode
         if(Mode==0 && Val==0){
            
@@ -337,7 +325,7 @@ void main(void) {
                 }
             }}
             
-        //        code for indicate led
+        // code for indicate led
         
         if(Up_relay==1){
             LED_UP=1;
