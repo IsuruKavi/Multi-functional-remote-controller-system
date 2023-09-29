@@ -22,3 +22,4 @@ During my internship , I had the opportunity to work on an innovative project ai
 -I meticulously crafted robust code for both the transmitter and receiver sides to guarantee error-free signal transmission and reception.
 -A critical focus was to ensure the system could maintain control and data integrity during signal interruptions, preventing risky conditions during operations.
 
+### Code,schematic and some photos of project have been uploaded. ####
