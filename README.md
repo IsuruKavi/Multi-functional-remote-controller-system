@@ -1,5 +1,5 @@
 🚀 Successfully Designed a Remote Controller System for Wave Soldering Machine 🛠️
-During my internship at Variosystems , I had the opportunity to work on an innovative project aimed at enhancing the safety and convenience of wave soldering machine operations. The core objective was to remotely control the hot solder bath, eliminating the need for operators to be in close proximity to the potentially dangerous liquid solder.
+During my internship , I had the opportunity to work on an innovative project aimed at enhancing the safety and convenience of wave soldering machine operations. The core objective was to remotely control the hot solder bath, eliminating the need for operators to be in close proximity to the potentially dangerous liquid solder.
 
 **Key Features**:
 - I designed and implemented a user-friendly interface with four push buttons (Up, Down, In, Out) to facilitate machine operations.
@@ -25,4 +25,4 @@ During my internship at Variosystems , I had the opportunity to work on an innov
 - Subsequently, I ventured into PCB design. I'll be sharing photos of the vero board for the transmitter and receiver shortly.
 
 
-###_Code,schematic and some photos have been uploaded_###
+#####_Code,schematic and some photos have been uploaded_#####
